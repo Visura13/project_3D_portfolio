@@ -16,13 +16,15 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
   tesla,
+  starbucks,
   shopify,
+  search,
   carrent,
   jobit,
   tripguide,
   threejs,
+  shareprompts,
 } from "../assets";
 
 export const navLinks = [
@@ -196,27 +198,52 @@ const projects = [
   {
     name: "Car Rent",
     company_name: "Meta",
-    icon: starbucks,
+    icon: search,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "July 2023",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "PostCSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Visura13/project_car_rent",
+  },
+  {
+    name: "SharePrompts",
+    company_name: "Meta",
+    icon: search,
+    iconBg: "#383E56",
+    date: "August 2023",
+    description:
+      "Web-based platform that allows users to share usefull and powerfull ChatGPT commands with other users",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next Auth",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: shareprompts,
+    source_code_link: "https://github.com/Visura13/project_SharePrompts",
   },
   {
     name: "Job IT",
@@ -241,31 +268,6 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    company_name: "Meta",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
     source_code_link: "https://github.com/",
   },
 ];

@@ -44,9 +44,7 @@ const Navbar = () => {
         >
           <img src={logo1} alt='logo' className='w-10 h-10 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Visura &nbsp;
-            <span className='sm:block hidden'> Surajitha &nbsp; </span>
-            De silva
+            Visura De silva
           </p>
         </Link>
 
