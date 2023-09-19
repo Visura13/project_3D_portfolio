@@ -19,10 +19,8 @@ import {
   tesla,
   starbucks,
   shopify,
-  search,
   carrent,
   jobit,
-  tripguide,
   threejs,
   shareprompts,
 } from "../assets";
@@ -198,7 +196,6 @@ const projects = [
   {
     name: "Car Rent",
     company_name: "Meta",
-    icon: search,
     iconBg: "#383E56",
     date: "July 2023",
     description:
@@ -223,7 +220,6 @@ const projects = [
   {
     name: "SharePrompts",
     company_name: "Meta",
-    icon: search,
     iconBg: "#383E56",
     date: "August 2023",
     description:
@@ -248,7 +244,6 @@ const projects = [
   {
     name: "Job IT",
     company_name: "Meta",
-    icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     description:
